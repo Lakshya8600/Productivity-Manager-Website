@@ -2,13 +2,12 @@
     font-size: 2.5rem;
 }
 form{
-    padding: 100px 50px;
+    padding: 70px 30px 150px 30px;
     display: flex;
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
-    background-color: rgba(114, 115, 122,0.2);
-    
+    background-image: linear-gradient(0deg, #615fe969 0%, #6debe38c 74%)
 }
 
 .collapse{
@@ -16,17 +15,35 @@ form{
     justify-content: center;
 }
 .mb-3{
-    padding: 20px 70px;
+    padding: 20px 60px;
 }
 .form-label{
     font-size: 3rem;
     font-family: 'Twinkle Star', cursive;
 }
+#SubmitDiv{
+    align-self: flex-end;
+}
 #Submit{
-    position: absolute;
-    top: 520px;
-    padding: 10px 200px; 
+    position: relative;
+    top: -50px;
+    padding: 20px 50px;
     font-size: 1.5rem;
-    background-image: linear-gradient(0deg, #8ddf78 0%, #96e4df 74%);
+    background-image: linear-gradient(0deg, #625fe9 0%, #6debe2 74%);
+    border-radius: 5px;
+    border-radius: 25px;
+    border: 10px rgba(129, 95, 209, 0.452) groove;
+    box-shadow: 7px 7px 10px indigo;
+}
+#Submit:hover{
+    background-image: linear-gradient(0deg, #3f3cff 0%, #32fff1 74%);
+    border: 10px rgb(123, 0, 238) groove;
+}
+.form-control{
+    /* padding: 25px 0px 25px 0px; */
+    font-size: 2rem;
+    font-family: 'Twinkle Star', Times, serif;
+    width: 180px;
+    text-align: center;
 }
 

@@ -36,56 +36,46 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link active" aria-current="page" href="/About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link active" aria-current="page" href="/Records">Records</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Graphs">Graphs</a>
+                    </li>
+                    
                 </ul>
             </div>
         </div>
     </nav>
 
-    <form>
+    <form action="/Records" method="POST">
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Growth</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <input name="Growth" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Number Of Hours You Spent On The Above Activity .</div>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Pleasure</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <input type="number" name="Pleasure" class="form-control" id="exampleInputPassword1">
+          <div id="emailHelp" class="form-text">Number Of Hours You Spent For The Above Activity .</div>
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Duty</label>
-          <input type="password" class="form-control" id="exampleInputPassword1">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <input type="number" class="form-control" name="Duty" id="exampleInputPassword1">
+          <div id="emailHelp" class="form-text">Number Of Hours You Spent For The Above Activity .</div>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label"></label>
-          <input type="date" class="form-control" id="exampleInputPassword1">
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          <label for="exampleInputPassword1" class="form-label">Date</label>
+          <input type="date" class="form-control" name="Date" id="exampleInputPassword1" >
+          <div id="emailHelp" class="form-text">Date On Which You Spent The Following Schedule.</div>
         </div>
-
-        <button type="submit" class="btn-3" id='Submit'>Submit</button>
+        <div id="SubmitDiv"><button type="submit" class="btn-3" id='Submit'>Submit</button></div>
+        
       </form>
 
 </body>
