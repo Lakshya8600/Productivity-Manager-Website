@@ -1,0 +1,32 @@
+.ParameterText{
+    font-size: 2.5rem;
+}
+form{
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: rgba(114, 115, 122,0.2);
+    
+}
+
+.collapse{
+    display: flex;
+    justify-content: center;
+}
+.mb-3{
+    padding: 20px 70px;
+}
+.form-label{
+    font-size: 3rem;
+    font-family: 'Twinkle Star', cursive;
+}
+#Submit{
+    position: absolute;
+    top: 520px;
+    padding: 10px 200px; 
+    font-size: 1.5rem;
+    background-image: linear-gradient(0deg, #8ddf78 0%, #96e4df 74%);
+}
+
